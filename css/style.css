@@ -1,0 +1,326 @@
+.elstyle {
+    width: 1590px;
+    opacity: 0.942823;
+    height: 500px;
+
+}
+
+.backgroundPlane {
+
+    position: absolute;
+    top: 60px;
+    left: -50px;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.8);
+    /*transform: rotateZ(-5deg);*/
+    /*-webkit-transform: rotateZ(-5deg);*/
+    /*-moz-transform: rotateZ(-5deg);*/
+    /*-o-transform: rotateZ(-5deg);*/
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    z-index: 0;
+}
+
+#home {
+    background: url(../image/прованс_3.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+#about {
+    background: url(../image/about.jpg) 50% 0 no-repeat fixed;
+    height: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+#home article {
+    background: url(" ") no-repeat scroll center top transparent;
+    height: 458px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 291px;
+    width: 100%;
+}
+
+#about article {
+    background: url(" ") no-repeat scroll center top transparent;
+    height: 458px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 291px;
+    width: 100%;
+}
+
+#brand {
+    -vendor-animation-duration: 10s;
+    -vendor-animation-delay: 10s;
+    -vendor-animation-iteration-count: infinite;
+}
+
+body {
+    background-color: #151515 !important;
+}
+
+.navbar-brand {
+    margin: 0px 3px;
+
+}
+
+@media (min-width: 768px) {
+
+    .navbar-inverse {
+        background-color: rgba(51, 51, 51, 0.48) !important;
+        border-color: rgba(93, 91, 91, 0.44) !important;
+        border-width: 0 0 2px !important;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin: 0 auto;
+
+    }
+
+    .myscreenheight {
+        height: 100vh;
+        margin-top: -75px;
+        margin-bottom: -17px;
+    }
+
+    .myMarginForRubrik {
+
+        /*margin-top: 40px;*/
+        /*margin-bottom: 30px;*/
+
+
+
+    }
+    .ForRubrikTenLeft
+    {
+        background-color: rgba(0, 0, 0, 0.35);
+        width: 60%;
+        margin-left: -10%;
+        height: 80%;
+        margin-bottom: 70px;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+
+    }
+   .ForRubrikTenRight
+    {
+        background-color: rgba(0, 0, 0, 0.35);
+        width: 60%;
+        /*margin-left: 47%;*/
+        height: 80%;
+        margin-bottom: 70px;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .navbar-brand {
+        padding: 5px 5px !important;
+        margin-left: 0px !important;
+        /* line-height: 20px; */
+    }
+
+    .navbar-nav.mobile-bar {
+        max-height: 90px;;
+
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .mymenu {
+        float: none;
+        display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        text-decoration: none;
+
+        padding: 15px 0px;
+
+        color: #ffffff;
+        font-size: 20px;
+        font-family: 'Open Sans Condensed';
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+.mymenualign {
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff !important;
+}
+
+.cfbf {
+    background: url(../image/МАКЕТ%20УСЛУГ.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    background-color: rgba(51, 51, 51, 0.24);
+}
+
+
+
+
+
+/**/
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 7px 8px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.header {
+    padding-top: 50px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.footer {
+    color: #887;
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-text-block {
+
+    color: white;
+    position: relative;
+    display: table;
+    width: 60%;
+    margin-left: 27%;
+    margin-right: 30%;
+    min-height: 70vh;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.content-img-block {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.pull-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-circle {
+    border-radius: 20px;
+}
+
+.input-group input {
+    border: 0;
+    box-shadow: none;
+    padding-right: 30px;
+}
+
+.input-group input:focus,
+.input-group input:active {
+    outline: 0;
+    box-shadow: none;
+}
+
+.input-group-btn:last-child > .btn {
+    z-index: 2;
+    margin-left: -18px;
+    border-radius: 20px;
+}
+
+.phone {
+    position: relative;
+    max-width: 263px;
+    margin: 0 auto;
+    padding: 65px 15px 55px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    background-color: #222;
+    box-shadow: 20px 20px 40px #887;
+}
+
+.mytestbutton {
+    border-top: 1px solid #96d1f8;
+    background: #757571;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe8ff), to(#757571));
+    background: -moz-linear-gradient(top, #ffe8ff, #757571);
+    background: -ms-linear-gradient(top, #ffe8ff, #757571);
+    background: -o-linear-gradient(top, #ffe8ff, #757571);
+    padding: 11.5px 23px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.mytestbutton:hover {
+    color: #dbdbdb;
+    background: #649ec4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#649ec4));
+    background: -moz-linear-gradient(top, #0095cc, #649ec4);
+    background: -ms-linear-gradient(top, #0095cc, #649ec4);
+    background: -o-linear-gradient(top, #0095cc, #649ec4);
+}
+
+.mytestbutton:active {
+    border-top-color: #2673a6;
+    background: #2673a6;
+}
+
+
+
+
+.paretn{position:relative}
+.child{position:absolute;top:10px;left:10px}

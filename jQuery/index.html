@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Background</title>
+	<link href="main.css" type="text/css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="jquery.vide.min.js"></script>
+	<script>
+	/*$(function(){
+		$("#video").vide('ocean',{
+			volume: 1, 			// звук
+			playbackRate: 1, 	// скорость воспроизведения
+			muted: true, 		// отключен ли звук
+			loop: true, 		// закцикливание
+			autoplay: true, 	// автовоспроизведение
+			position: "50% 50%"	// выравнивание
+		});
+	});*/
+	</script>
+</head>
+<body>
+	<!-- Первый способ -->
+	<div id="video" data-vide-bg="jQuery/ocean"
+					data-vide-options="
+						volume: 1,
+						playbackRate: 1,
+						muted: true,
+						loop: true,
+						autoplay: true,
+						position: 50% 50%">
+	</div>
+	<!-- Второй способ -->
+	<!-- <div id="video"></div> -->
+</body>
+</html>
